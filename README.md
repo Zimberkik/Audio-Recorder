@@ -16,3 +16,9 @@ Grab `ZimRec-1.3.exe` from the **Releases** page. FFmpeg is bundled.
 
 ## Build from source
 
+    javac -encoding UTF-8 -cp "jnativehook-2.2.2.jar" -d out src\main\java\ZimRec.java
+    jar --create --file ZimRec.jar --main-class ZimRec -C out .
+
+## License
+
+MIT
